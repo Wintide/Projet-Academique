@@ -1,0 +1,47 @@
+Configuration du plateau:
+
+0 : Cases vide
+"J": Case joueur
+"F": Cases fantome
+"P": Case porte
+"M": Cases mur
+"C": Cases colonne
+"D": Case de départ/ Case safe de génération (Si la fonction generer plateau est utiliser)
+
+
+Démarrer le jeu:
+
+Exécuter le fichier main.py
+
+Menu:
+
+Image Clavier: Jouer avec le clavier
+Image Souris: Jouer avec la souris
+
+Image tableau Score: Afficher tout les scores de toutes les parties jouer
+Image trophée: Afficher les 3 meilleurs scores atteints
+
+
+Jeu au clavier:
+
+Deplacement: Fleche directionner ou zqsd
+Placer bombe: Espace
+Arreter la partie: Suppr (supprimer)
+Afficher le plateau dans le terminal au tour actuel: Entrée (Return)
+
+Jeu avec la souris:
+
+Deplacement: Cliquer sur la case voulue
+Placer bombe: Cliquer sur la case actuel ou vous êtes
+
+
+Remarques:
+
+- Les parametres de la parties peuvent être modifié facilement dans le fichier parametres.py
+- Les scores sont stockés dans un fichier listes_scores.txt et sont triés dans le code de main.py
+- Le jeu se termine quand il il n'y a plus de mur et que le joueur atteint la porte (victoire), le temps est écoulé (défaite) ou
+le joueur n'a plus de vie (défaite)
+-Toutes les images sont gérer dans le fichier image.py pour aérer le main
+-Les items/upgrade ont un timer de 10 tour (modifiable dans parametre)
+
+
